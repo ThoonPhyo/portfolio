@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Contact Form</h1>
+    <form action="index.html">
+      <!-- div = like section used for small sections -->
+      <div>
+        <label for="">Name</label>
+        <input type="text" />
+      </div>
+
+      <div>
+        <label for="">Email</label>
+        <input type="email" />
+      </div>
+
+      <div>
+        <label for="">Age</label>
+        <input type="number" min="18" max="45" step="2" />
+      </div>
+
+      <div>
+        <label for="">Gender</label>
+        <!-- checked = do as default user common choice
+         if you don't want all choice, make the same name -->
+
+        <input type="radio" name="gender" id="" checked /> Male
+        <input type="radio" name="gender" id="" /> Female
+        <input type="radio" name="gender" id="" /> Prefer not to say
+      </div>
+
+      <div>
+        <!-- checkbox -->
+        <label for=""> Hobbies and Interest</label>
+        <input type="checkbox" name="" id="" checked /> Traveling
+        <input type="checkbox" name="" id="" /> Reading
+        <input type="checkbox" name="" id="" /> Gardening
+      </div>
+
+      <div>
+        <!-- date -->
+        <label for=""> DOB</label>
+        <input type="date" name="" id="" />
+      </div>
+
+      <div>
+        <!-- file -->
+        <!-- accept = to choose file type
+          * = all
+          jepg -->
+        <label for=""> Upload Photo</label>
+        <input type="file" name="" id="" accept="image/jpeg" />
+      </div>
+
+      <div>
+        <!-- select box -->
+        <label for="">Location</label>
+        <select name="" id="">
+          <option value="">Yangon</option>
+          <option value="" selected>Mandalay</option>
+          <option value="">Others</option>
+        </select>
+      </div>
+
+      <div>
+        <!-- textarea -->
+        <label for="">Location</label>
+        <textarea name="" id="" rows="10" cols="30"></textarea>
+      </div>
+
+      <div>
+        <!-- submit - work with form action -->
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
+
+<!-- 
+section / div
+input type = text, email, number, radio, checkbox, date, file, submit
+select - for="" in label, option 
+textarea - fows, cols
+
+-->
