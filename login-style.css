@@ -1,0 +1,62 @@
+body {
+  border: 2px solid #213a57;
+  border-radius: 12px;
+  width: 500px;
+  background: #c8e6e2;
+  padding: 0 28px 28px 28px;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Poppins", serif;
+  font-size: 3em;
+  font-weight: 700px;
+  color: #213a57;
+  background-color: #c8e6e2;
+  text-align: left;
+  padding-bottom: auto;
+  margin-bottom: 28px;
+}
+
+form div {
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.form-control {
+  background-color: #c8e6e2;
+  width: 300px;
+  border: none;
+  outline: none;
+  border-bottom: 1px dotted #213a57;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  width: 20%;
+  height: 40px;
+  background-color: #213a57;
+  color: #c8e6e2;
+  border: none;
+  border-radius: 8px;
+}
+
+p {
+  text-align: center;
+  margin-top: 30px;
+  line-height: 1.5em;
+  color: #213a57;
+}
+
+a {
+  border: 2px solid #213a57;
+  background-color: #213a57;
+  color: #c8e6e2;
+  padding: 2px 7px 3px 7px;
+  border-radius: 7px;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: normal;
+}

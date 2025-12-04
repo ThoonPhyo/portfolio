@@ -1,0 +1,56 @@
+/* Next page */
+/* contact form section */
+body {
+  border: 2px solid #213a57;
+  border-radius: 12px;
+  width: 500px;
+  background: #c8e6e2;
+  padding: 0 28px 28px 28px;
+  margin: auto;
+}
+h1 {
+  font-family: "Poppins", serif;
+  font-size: 3em;
+  font-weight: 700px;
+  background-color: #213a57;
+  color: #c8e6e2;
+  text-align: center;
+  padding-bottom: auto;
+  margin-bottom: 28px;
+}
+form div {
+  font-family: "Inter", sans-serif;
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.form-label {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+  margin-right: 20px;
+}
+.form-control {
+  background-color: #c8e6e2;
+  width: 300px;
+  border: none;
+  outline: none;
+  border-bottom: 1px dotted #213a57;
+}
+.form-box {
+  border: 2px solid #213a57;
+  border-radius: 5px;
+  background-color: #c8e6e2;
+  color: #c8e6e2#213a57;
+  width: auto;
+}
+.btn-submit {
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+  background-color: #213a57;
+  color: #c8e6e2;
+  border: none;
+  border-radius: 9px;
+}

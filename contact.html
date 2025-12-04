@@ -4,28 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link rel="stylesheet" href="contact-style.css">
+
   </head>
   <body>
     <h1>Contact Form</h1>
     <form action="login.html">
       <!-- div = like section used for small sections -->
       <div>
-        <label for="">Name</label>
-        <input type="text" />
+        <label class="form-label" for="">Name</label>
+        <input type="text" class="form-control" />
       </div>
 
       <div>
-        <label for="">Email</label>
-        <input type="email" />
+        <label class="form-label" for="">Email</label>
+        <input type="email" class="form-control" />
       </div>
 
       <div>
-        <label for="">Age</label>
-        <input type="number" min="18" max="45" step="2" />
+        <label class="form-label" for="">Age</label>
+        <input type="number" min="18" max="45" step="2" class="form-control" />
       </div>
 
       <div>
-        <label for="">Gender</label>
+        <label class="form-label" for="">Gender</label>
         <!-- checked = do as default user common choice
          if you don't want all choice, make the same name -->
 
@@ -36,7 +39,7 @@
 
       <div>
         <!-- checkbox -->
-        <label for=""> Hobbies and Interest</label>
+        <label class="form-label" for=""> Hobbies and Interest</label>
         <input type="checkbox" name="" id="" checked /> Traveling
         <input type="checkbox" name="" id="" /> Reading
         <input type="checkbox" name="" id="" /> Gardening
@@ -44,8 +47,8 @@
 
       <div>
         <!-- date -->
-        <label for=""> DOB</label>
-        <input type="date" name="" id="" />
+        <label class="form-label"for=""> DOB</label>
+        <input type="date" name="" class="form-box" />
       </div>
 
       <div>
@@ -53,14 +56,14 @@
         <!-- accept = to choose file type
           * = all
           jepg -->
-        <label for=""> Upload Photo</label>
-        <input type="file" name="" id="" accept="image/jpeg" />
+        <label class="form-label" for=""> Upload Photo</label>
+        <input type="file" name="" id="" accept="image/jpeg" class="form-box"/>
       </div>
 
       <div>
         <!-- select box -->
-        <label for="">Location</label>
-        <select name="" id="">
+        <label class="form-label" for="">Location</label>
+        <select name="" id="" class="form-box">
           <option value="">Yangon</option>
           <option value="" selected>Mandalay</option>
           <option value="">Others</option>
@@ -69,13 +72,13 @@
 
       <div>
         <!-- textarea -->
-        <label for="">Location</label>
-        <textarea name="" id="" rows="10" cols="30"></textarea>
+        <label class="form-label" for="">Location</label>
+        <textarea name="" id="" rows="1" cols="20" class="form-control"></textarea>
       </div>
 
       <div>
         <!-- submit - work with form action -->
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit" class="btn-submit" />
       </div>
     </form>
   </body>
@@ -85,6 +88,6 @@
 section / div
 input type = text, email, number, radio, checkbox, date, file, submit
 select - for="" in label, option 
-textarea - fows, cols
+textarea - rows, cols
 
 -->
